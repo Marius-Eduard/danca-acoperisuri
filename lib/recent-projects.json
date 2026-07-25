@@ -1,0 +1,64 @@
+[
+  {
+    "id": "zinc-gri",
+    "title": "Zinc-Titan",
+    "description": "Proiecte rezidențiale moderne realizate cu tablă prefălțuită gri închis și zinc-titan. Perfect pentru vile cu arhitectură minimalistă sau clădiri situate în zone de coastă, oferind finisaje curate, rezistență superioară la coroziune și un design minimalist de excepție.",
+    "files": [
+      "zinc_coastal_villa_04.webp",
+      "zinc_coastal_villa_01.webp",
+      "zinc_residential_roof_02.webp",
+      "zinc_residential_roof_03.webp",
+      "zinc_coastal_villa_02.webp",
+      "zinc_coastal_villa_03.webp"
+    ]
+  },
+  {
+    "id": "verde-turcoaz",
+    "title": "Fațade Metalice Verde-Turcoaz",
+    "description": "Placări premium cu tablă prefălțuită verde-turcoaz pentru clădiri comerciale și industriale. Soluție modernă, durabilă și rezistentă la intemperii, asigurând un aspect vizual deosebit și o protecție de lungă durată a fațadelor și acoperișurilor.",
+    "files": [
+      "green_industrial_roof_01.webp",
+      "green_industrial_facade_01.webp",
+      "green_industrial_facade_02.webp"
+    ]
+  },
+  {
+    "id": "cupru",
+    "title": "Cupru — Cupole și Restaurări",
+    "description": "Execuție artizanală a acoperișurilor și cupolelor din cupru. De la restaurarea monumentelor istorice și realizarea turlelor bisericești până la finisaje contemporane din cupru lucios sau patinat. Cuprul oferă o eleganță atemporală și o durată de viață de peste un secol.",
+    "files": [
+      "copper_pitched_roof_01.webp",
+      "copper_curved_detailing_01.webp",
+      "copper_dome_restoration_01.webp",
+      "copper_dome_restoration_02.webp",
+      "copper_weathered_turret_01.webp",
+      "copper_weathered_turret_02.webp",
+      "copper_modern_flat_roof_01.webp"
+    ]
+  },
+  {
+    "id": "maro-clasic",
+    "title": "Acoperișuri Rezidențiale Maro Clasic",
+    "description": "Acoperișuri clasice din tablă prefălțuită maro pentru case de locuit și extensii comerciale. O alegere versatilă și populară care îmbină perfect estetica tradițională a acoperișurilor metalice cu performanța tehnică modernă și sistemele eficiente de drenaj.",
+    "files": [
+      "brown_commercial_cladding_01.webp",
+      "brown_apartment_roof_01.webp",
+      "brown_apartment_roof_02.webp",
+      "brown_residential_roof_01.webp",
+      "brown_residential_roof_02.webp",
+      "brown_residential_roof_03.webp"
+    ]
+  },
+  {
+    "id": "maro-roscat-texturat",
+    "title": "Acoperișuri Texturate Maro-Roșcat",
+    "description": "Acoperișuri și placări de fațadă cu tablă prefălțuită texturată în nuanțe calde de maro-roșcat. Textura specială oferă profunzime vizuală și un finisaj mat elegant clădirilor rezidențiale multifamiliale, asigurând ventilație optimă prin sisteme avansate de coamă.",
+    "files": [
+      "textured_redbrown_ridge_01.webp",
+      "textured_redbrown_ridge_02.webp",
+      "textured_redbrown_building_01.webp",
+      "textured_redbrown_building_02.webp",
+      "textured_redbrown_building_03.webp"
+    ]
+  }
+]
