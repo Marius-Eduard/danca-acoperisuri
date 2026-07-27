@@ -10,7 +10,7 @@ const services = [
 
 export default function ServicesListItems() {
   return (
-    <div className="w-full max-w-md flex flex-col gap-4 text-left">
+    <div className="flex flex-col gap-4 text-left">
       {services.map((item, index) => (
         <div
           key={index}

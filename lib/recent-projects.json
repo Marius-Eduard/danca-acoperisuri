@@ -6,10 +6,8 @@
     "files": [
       "zinc_coastal_villa_04.webp",
       "zinc_coastal_villa_01.webp",
-      "zinc_residential_roof_02.webp",
-      "zinc_residential_roof_03.webp",
       "zinc_coastal_villa_02.webp",
-      "zinc_coastal_villa_03.webp"
+      "zinc_residential_roof_03.webp"
     ]
   },
   {
@@ -18,8 +16,9 @@
     "description": "Placări premium cu tablă prefălțuită verde-turcoaz pentru clădiri comerciale și industriale. Soluție modernă, durabilă și rezistentă la intemperii, asigurând un aspect vizual deosebit și o protecție de lungă durată a fațadelor și acoperișurilor.",
     "files": [
       "green_industrial_roof_01.webp",
-      "green_industrial_facade_01.webp",
-      "green_industrial_facade_02.webp"
+      "green_industrial_facade_02.webp",
+      "green_industrial_turret_01.webp",
+      "green_industrial_turret_02.webp"
     ]
   },
   {
@@ -31,8 +30,6 @@
       "copper_curved_detailing_01.webp",
       "copper_dome_restoration_01.webp",
       "copper_dome_restoration_02.webp",
-      "copper_weathered_turret_01.webp",
-      "copper_weathered_turret_02.webp",
       "copper_modern_flat_roof_01.webp"
     ]
   },
@@ -56,7 +53,6 @@
     "files": [
       "textured_redbrown_ridge_01.webp",
       "textured_redbrown_ridge_02.webp",
-      "textured_redbrown_building_01.webp",
       "textured_redbrown_building_02.webp",
       "textured_redbrown_building_03.webp"
     ]

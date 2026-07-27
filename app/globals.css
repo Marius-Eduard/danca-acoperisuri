@@ -8,7 +8,7 @@
 /* Cam asta e modelul (padding fix, simplu, nu te complica cu containere si vw): 
 @apply px-2 sm:px-8 md:px-16 lg:px-24 xl:px-32 2xl:px-40; */
 @utility c-px {
-  @apply px-5;
+  @apply px-5 md:px-12 lg:px-32 xl:px-48 2xl:px-96;
 }
 
 @utility c-pt {
