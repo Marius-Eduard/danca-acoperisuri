@@ -10,10 +10,10 @@ const services = [
 
 export default function ServicesListItems() {
   return (
-    <div className="flex flex-col gap-4 text-left">
-      {services.map((item, index) => (
-        <div
-          key={index}
+    <ul className="flex flex-col gap-4 text-left list-none">
+      {services.map((item) => (
+        <li
+          key={item.title}
           className="flex items-center gap-3 py-3 border-b border-primary-foreground/10 last:border-none"
         >
           <ShieldCheck
@@ -25,8 +25,8 @@ export default function ServicesListItems() {
           >
             {item.title}
           </span>
-        </div>
+        </li>
       ))}
-    </div>
+    </ul>
   );
 }

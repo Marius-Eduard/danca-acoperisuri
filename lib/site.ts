@@ -1,0 +1,30 @@
+export const siteConfig = {
+  name: "Dancă Acoperișuri",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://danca-acoperisuri.ro",
+  phone: "+40753828259",
+  phoneDisplay: "0753 828 259",
+  locale: "ro_RO",
+  location: {
+    city: "Bacău",
+    country: "România",
+    areaServed: "România",
+  },
+  title: "Servicii Complete pentru Acoperișuri în România",
+  description:
+    "Peste 25 de ani de experiență în Italia. Construcții noi, reparații și izolații termo-hidro pentru acoperișuri din zinc, cupru și tablă prefălțuită. Sediu în Bacău, lucrăm în toată România.",
+  keywords: [
+    "acoperișuri",
+    "acoperisuri Bacau",
+    "acoperiș România",
+    "reparații acoperiș",
+    "izolații acoperiș",
+    "tablă prefălțuită",
+    "zinc titan",
+    "acoperiș cupru",
+    "fațade metalice",
+    "Dancă Acoperișuri",
+    "Bacău",
+  ],
+  services: ["Construcții noi", "Reparații", "Izolații termo și hidro", "Garanție lucrări"],
+  ogImage: "/recent-projects/copper_dome_restoration_01.webp",
+} as const;
