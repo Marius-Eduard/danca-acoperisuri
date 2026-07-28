@@ -23,10 +23,7 @@ export default function Navbar() {
         />
       </Link>
 
-      <Button
-        size="default"
-        className="sm:h-9 sm:px-4 sm:text-base transition-transform hover:scale-[1.3]"
-      >
+      <Button size="lg" className="sm:text-base transition-transform hover:scale-[1.3]">
         <Link href={`tel:${siteConfig.phone}`} className="flex items-center gap-2">
           <Phone className="w-4 h-4" aria-hidden="true" />
           {siteConfig.phoneDisplay}
