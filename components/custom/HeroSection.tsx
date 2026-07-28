@@ -7,7 +7,8 @@ export default function HeroSection() {
       aria-labelledby="hero-heading"
     >
       <h1 id="hero-heading" className="text-4xl sm:text-4xl font-bold ">
-        Servicii complete pentru <span className="text-accent italic">Acoperișuri</span>
+        Servicii complete pentru <span className="text-accent italic">Acoperișuri</span> &nbsp; în
+        toată România
       </h1>
 
       {/* H2 / Subtitle 24*/}

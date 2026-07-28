@@ -1,8 +1,8 @@
 export const siteConfig = {
   name: "Dancă Acoperișuri",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://danca-acoperisuri.ro",
-  phone: "+40753828259",
-  phoneDisplay: "0753 828 259",
+  url: "https://danca-acoperisuri.ro",
+  phone: "+0775347315",
+  phoneDisplay: "0775 347 315",
   locale: "ro_RO",
   location: {
     city: "Bacău",
@@ -15,7 +15,10 @@ export const siteConfig = {
   keywords: [
     "acoperișuri",
     "acoperisuri Bacau",
-    "acoperiș România",
+    "acoperisuri Bucuresti",
+    "acoperisuri Ilfov",
+    "acoperisuri Iasi",
+    "acoperișuri România",
     "reparații acoperiș",
     "izolații acoperiș",
     "tablă prefălțuită",
@@ -25,6 +28,12 @@ export const siteConfig = {
     "Dancă Acoperișuri",
     "Bacău",
   ],
-  services: ["Construcții noi", "Reparații", "Izolații termo și hidro", "Garanție lucrări"],
+  services: [
+    "Construcții noi",
+    "Reparații",
+    "Izolații termo",
+    "Izolatii hidro",
+    "Garanție lucrări",
+  ],
   ogImage: "/recent-projects/copper_dome_restoration_01.webp",
 } as const;

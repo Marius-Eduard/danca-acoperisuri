@@ -21,7 +21,7 @@ export default function RecentProjects() {
                 <div key={index} className="w-full rounded-lg overflow-hidden ">
                   <Image
                     src={`/recent-projects/${fileName}`}
-                    alt={`${project.title} — fotografie ${index + 1} din portofoliu Dancă Acoperișuri`}
+                    alt={fileName}
                     width={1200}
                     height={800}
                     sizes="100vw"

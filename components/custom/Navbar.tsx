@@ -9,7 +9,11 @@ export default function Navbar() {
   return (
     <header className="flex items-center justify-between sticky top-0 z-50 bg-background border-b border-border c-px">
       {/* Logo */}
-      <Link href="/" className="flex items-center gap-2" aria-label={`${siteConfig.name} — pagina principală`}>
+      <Link
+        href="/"
+        className="flex items-center gap-2"
+        aria-label={`${siteConfig.name} — pagina principală`}
+      >
         <Image
           src="/danca-acoperisuri.svg"
           alt="Dancă Acoperișuri"

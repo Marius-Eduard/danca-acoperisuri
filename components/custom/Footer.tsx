@@ -16,17 +16,9 @@ export default function Footer() {
           <p className="text-3xl font-bold">Sună-ne și discutăm!</p>
         </div>
 
-      <p className="text-2xl italic text-primary-foreground/90">
-        Avem sediul central în <address className="not-italic inline">Bacău</address>, dar
-        lucrăm în <span className="font-bold">toată țara</span>.
-      </p>
-
-      <p className="text-sm text-primary-foreground/80">
-        Telefon:{" "}
-        <a href={`tel:${siteConfig.phone}`} className="hover:text-accent transition-colors">
-          {siteConfig.phoneDisplay}
-        </a>
-      </p>
+        <p className="text-2xl italic text-primary-foreground/90">
+          Avem sediul central în Bacău, dar lucrăm în <span className="font-bold">toată țara</span>.
+        </p>
 
         <p className="text-xs pb-4 text-primary-foreground/60">
           © 2026 Dancă Acoperișuri. Toate drepturile rezervate.
