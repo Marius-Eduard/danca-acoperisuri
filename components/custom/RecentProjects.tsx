@@ -11,26 +11,29 @@ export default function RecentProjects() {
       </h2>
 
       <div className="flex flex-col gap-20">
-        {projectsData.map((project) => (
+        {projectsData.map((project, projectIndex) => (
           <article key={project.id} className="bg-card">
             <h3 className="text-xl font-semibold mb-2 text-foreground">{project.title}</h3>
             <p className="text-muted-foreground mb-6">{project.description}</p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-3 gap-4">
               {project.files.map((fileName, index) => {
-                // Calea completă include ambele foldere, iar Cloudinary găsește imaginea direct după nume
                 const imageUrl = `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/${fileName}`;
+
+                // Setăm prioritate doar pentru prima imagine din primul proiect pentru a îmbunătăți LCP în Lighthouse
+                const isPriority = projectIndex === 0 && index === 0;
 
                 return (
                   <div key={index} className="w-full rounded-lg overflow-hidden">
                     <Image
                       src={imageUrl}
-                      alt={fileName}
+                      alt={`${project.title} - ${index + 1}`}
                       width={1200}
                       height={800}
                       sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 33vw"
-                      quality={75}
-                      loading="lazy"
+                      quality={60}
+                      priority={isPriority}
+                      loading={isPriority ? "eager" : "lazy"}
                       className="w-full h-auto object-contain"
                     />
                   </div>
