@@ -35,5 +35,5 @@ export const siteConfig = {
     "Izolatii hidro",
     "Garanție lucrări",
   ],
-  ogImage: "/recent-projects/copper_dome_restoration_01.webp",
+  ogImage: "/recent-projects/cupru_restaurare_cupola_01.webp",
 } as const;

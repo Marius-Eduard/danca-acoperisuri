@@ -1,6 +1,7 @@
 import projectsData from "@/lib/recent-projects.json";
-
 import Image from "next/image";
+
+const CLOUD_NAME = "dyaunm5bz";
 
 export default function RecentProjects() {
   return (
@@ -10,30 +11,26 @@ export default function RecentProjects() {
       </h2>
 
       <div className="flex flex-col gap-20">
-        {projectsData.map((project, projectIndex) => (
+        {projectsData.map((project) => (
           <article key={project.id} className="bg-card">
             <h3 className="text-xl font-semibold mb-2 text-foreground">{project.title}</h3>
             <p className="text-muted-foreground mb-6">{project.description}</p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-3 gap-4">
               {project.files.map((fileName, index) => {
-                const isFirstImage = projectIndex === 0 && index === 0;
+                // Calea completă include ambele foldere, iar Cloudinary găsește imaginea direct după nume
+                const imageUrl = `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/${fileName}`;
 
                 return (
-                  <div
-                    key={`${project.id}-${fileName}`}
-                    className="w-full rounded-lg overflow-hidden"
-                  >
+                  <div key={index} className="w-full rounded-lg overflow-hidden">
                     <Image
-                      src={`/recent-projects/${fileName}`}
-                      alt={`${project.title} - ${index + 1}`}
-                      width={800}
-                      height={600}
-                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                      quality={72}
-                      loading={isFirstImage ? "eager" : "lazy"}
-                      priority={isFirstImage}
-                      decoding="async"
+                      src={imageUrl}
+                      alt={fileName}
+                      width={1200}
+                      height={800}
+                      sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 33vw"
+                      quality={75}
+                      loading="lazy"
                       className="w-full h-auto object-contain"
                     />
                   </div>
