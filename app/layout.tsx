@@ -7,7 +7,7 @@ import Footer from "@/components/custom/Footer";
 import { siteConfig } from "@/lib/site";
 import { getLocalBusinessJsonLd, getWebSiteJsonLd } from "@/lib/structured-data";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
+const inter = Inter({ subsets: ["latin", "latin-ext"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
