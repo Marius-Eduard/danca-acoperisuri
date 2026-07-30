@@ -1,6 +1,3 @@
-// components/layout/Footer.tsx
-import { siteConfig } from "@/lib/site";
-
 export default function Footer() {
   return (
     <footer className="bg-primary text-primary-foreground">
